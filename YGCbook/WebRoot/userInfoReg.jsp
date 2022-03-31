@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>用户注册页面</title>
 </head>
 <body background="resources/images/forUserInfoReg.jpg" style="text-align:center">
 	<form action="register" method="get">
