@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <title>用户注册页面</title>
 </head>
-<body background="resources/images/forUserInfoReg.jpg" style="text-align:center">
+<body background="resources/images/forUserInfoReg.jpg" background-size:860px 720px style="text-align:center">
 	<form action="register" method="get">
 		<!-- key 和 value 的形式发送给后台 -->
 		姓名:<input type="text" id="username" name="username"/><br>
@@ -20,9 +20,9 @@
 				<option value="2">数学</option>
 			</select>
 		简介:<textarea id="intro" name="intro"></textarea><br>
-		爱好:<input type="checkbox" id="hobby" name="name" value="0"/>足球
-		<input type="checkbox" id="hobby" name="name" value="1"/>篮球
-		<input type="checkbox" id="hobby" name="name" value="2"/>网球<br>
+		爱好:<input type="checkbox" id="hobby" name="hobby" value="0"/>足球
+		<input type="checkbox" id="hobby" name="hobby" value="1"/>篮球
+		<input type="checkbox" id="hobby" name="hobby" value="2"/>网球<br>
 		<input type="submit" value="提交" />
 		<input type="reset" value="重置" />
 	</form>
